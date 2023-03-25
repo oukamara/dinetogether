@@ -1,0 +1,124 @@
+@media only screen and (min-width: 768px) {
+    .character-wrapper {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .food-wrapper {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .banner {
+        height: 750px;
+        object-fit: cover;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 26px;
+        color: rgb(68, 12, 12);
+        text-decoration: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .funiture-wrapper {
+        grid-template-columns: repeat(2, auto);
+    }
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .character-wrapper {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .banner {
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    .food-wrapper {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .funiture-wrapper {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .feedbackform {
+        display: flex;
+
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .ui-wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .character-wrapper {
+        grid-template-columns: repeat(5, auto);
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .characters {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .food-wrapper {
+        grid-template-columns: repeat(5, auto);
+    }
+
+    .funiture-wrapper {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .banner {
+        height: 1500px;
+    }
+
+    .feedbackform {
+        display: flex;
+
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .ui-wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .ui-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
